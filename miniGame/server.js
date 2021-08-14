@@ -19,7 +19,7 @@ mongoose.connect(
     { useNewUrlParser: true, useUnifiedTopology: true },
     function (err) {
         if (err) {
-            console.log("Mongo connection error! " + err);
+            console.log("Mongo connection error!" + err);
         } else {
             console.log("Mongo connection successfully!");
         }

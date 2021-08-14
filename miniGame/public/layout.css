@@ -1,0 +1,17 @@
+#frmDangKy,
+#danhSach {
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#tbDS {
+    width: 95%;
+}
+
+#dong1,
+.row {
+    text-align: center;
+    padding: 4px;
+    border-bottom: 1p solid cornflowerblue;
+}

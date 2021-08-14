@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniGame</title>
+    <link rel="stylesheet" href="./layout.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./scripts/web3.js"></script>
     <script src="./process.js"></script>
@@ -14,12 +15,20 @@
 <body>
     <h2>MiniGame</h2>
     <button id="connectMM">connect MetaMask</button></br>
-    <b id="frmDangKy">
+    <div id="frmDangKy">
         <input type="text" id="txtHoTen" placeholder="Ho Ten"> </br>
         <input type="text" id="txtEmail" placeholder="Email"> </br>
         <input type="text" id="txtSoDT" placeholder="So DT"> </br>
         <button type="submit" id="btnDangKy">Đăng Ký</button> </br>
-        </div>
+    </div>
+    <div id="danhSach">
+        <table id="tbDS">
+            <tr id="dong1">
+                <td>Address</td>
+                <td>_ID</td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
