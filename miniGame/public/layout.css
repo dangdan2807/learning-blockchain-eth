@@ -1,6 +1,6 @@
 #frmDangKy,
 #danhSach {
-    background-color: aqua;
+    background-color: greenyellow;
     padding: 10px;
     margin-bottom: 5px;
 }
@@ -10,8 +10,9 @@
 }
 
 #dong1,
+td,
 .row {
     text-align: center;
     padding: 4px;
-    border-bottom: 1p solid cornflowerblue;
+    border-bottom: 2px solid cornflowerblue;
 }
